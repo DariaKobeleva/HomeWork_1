@@ -16,19 +16,28 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8aC-gc-IrL">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8aC-gc-IrL">
                                 <rect key="frame" x="27" y="95" width="339" height="320"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.99953407049999998" green="0.98835557699999999" blue="0.47265523669999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="D0S-yj-qXB">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="D0S-yj-qXB">
                                 <rect key="frame" x="27" y="451" width="339" height="330"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.42352938649999999" green="0.5411764979" blue="0.91764706370000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8aC-gc-IrL" secondAttribute="trailing" constant="27" id="0Mz-4C-qAH"/>
+                            <constraint firstItem="8aC-gc-IrL" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="36" id="3J4-j5-UJf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="D0S-yj-qXB" secondAttribute="bottom" constant="37" id="BRj-rS-Ung"/>
+                            <constraint firstItem="8aC-gc-IrL" firstAttribute="height" secondItem="D0S-yj-qXB" secondAttribute="height" multiplier="0.969697" id="U7t-aQ-pb0"/>
+                            <constraint firstItem="8aC-gc-IrL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="27" id="Uly-t6-c7D"/>
+                            <constraint firstItem="D0S-yj-qXB" firstAttribute="top" secondItem="8aC-gc-IrL" secondAttribute="bottom" constant="36" id="eIy-7Q-Vgh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="D0S-yj-qXB" secondAttribute="trailing" constant="27" id="id3-Rj-MGg"/>
+                            <constraint firstItem="D0S-yj-qXB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="27" id="wMX-L2-jfO"/>
+                            <constraint firstItem="8aC-gc-IrL" firstAttribute="width" secondItem="D0S-yj-qXB" secondAttribute="width" id="wTd-0j-zRK"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
